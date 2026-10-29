@@ -57,6 +57,7 @@ source:
     target_directory: oiio_src
     patches:
       - patches/0004-AVOID_OIIO_CORE_REBUILD_FOR_PYTHON.patch
+      - patches/0005-PORTABLE_LIBRAW_ERROR_MESSAGES.patch
   - url: https://github.com/AcademySoftwareFoundation/OpenColorIO/releases/download/v${{ ocio_version }}/OpenColorIO-${{ ocio_version }}.tar.gz
     sha256: 9271f4cb7751b465daf0e178323aef3f3fdf7595908ee4bb6442cceb73a24296
     target_directory: ocio_src
